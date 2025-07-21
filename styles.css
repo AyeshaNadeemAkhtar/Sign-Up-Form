@@ -6,8 +6,8 @@
 
 @font-face {
     font-family: 'norsebold';
-    src: url('../Fonts/norse-bold-webfont.woff2') format('woff2'),
-         url('../Fonts/norse-bold-webfont.woff') format('woff');
+    src: url('Fonts/norse-bold-webfont.woff2') format('woff2'),
+         url('Fonts/norse-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -22,7 +22,7 @@ body {
 }
 
 .first_child {
-    background-image: url("../Images/leaves.jpg");
+    background-image: url("Images/leaves.jpg");
     background-size: cover;
     width: 1050px;
     background-repeat: no-repeat;
