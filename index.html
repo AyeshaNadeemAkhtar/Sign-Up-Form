@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-Up-Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="first_child">
+      <div class="logo">
+        <img src="Images/odin-lined.png" alt="Odin Logo" />
+        <p>ODIN</p>
+      </div>
+
+      <div class="credit">
+        Photo by <a href="#">Halie West</a> on <a href="#">Unsplash</a>
+      </div>
+    </div>
+
+    <div class="second_child">
+      <div class="header">
+        <p id="real-online-service">
+          This is a real online service. You know you need something <br />like
+          this in your life to help you realize your deepest dreams.<br />
+          Sign up
+          <em>now</em>
+          to get started.
+        </p>
+
+        <p id="want">You <em>know</em> you want to.</p>
+      </div>
+
+      <div class="form_div">
+        <h2>Let's do this!</h2>
+        <form class="actual_form" id="form-for-inputs">
+          <div>
+            <label for="fname">FIRST NAME</label><br />
+            <input type="text" id="fname" />
+          </div>
+
+          <div>
+            <label for="lname">LAST NAME</label><br />
+            <input type="text" id="lname" />
+          </div>
+
+          <div>
+            <label for="email">EMAIL</label><br />
+            <input type="email" id="email" />
+          </div>
+
+          <div>
+            <label for="ph_no">PHONE NUMBER</label><br />
+            <input type="tel" id="ph_no" />
+          </div>
+
+          <div>
+            <label for="pwd">PASSWORD</label><br />
+            <input type="password" id="pwd" required />
+          </div>
+
+          <div>
+            <label for="cfrm_pwd">CONFIRM PASSWORD</label><br />
+            <input type="password" id="cfrm_pwd" required />
+          </div>
+        </form>
+      </div>
+
+      <div class="button_div">
+        <div class="last">
+          <button type="submit" form="form-for-inputs">Create Account</button>
+        </div>
+
+        <div>
+          <p class="footer_link">
+            Already have an account?
+            <a href="#">Log in</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
