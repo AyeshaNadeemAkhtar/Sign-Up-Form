@@ -144,9 +144,11 @@ h2 {
 }
 
 .actual_form input:focus {
-    border-color: blue;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid blue;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
 }
+
+
 .last button {
     background-color: #596D48;
     color: white;
